@@ -1,0 +1,5 @@
+us\infisecurity\CobaltLoot\commands\LootboxCommand.class
+us\infisecurity\CobaltLoot\listeners\LootboxListener.class
+us\infisecurity\CobaltLoot\utils\ColorUtils.class
+us\infisecurity\CobaltLoot\utils\Builder.class
+us\infisecurity\CobaltLoot\CobaltLoot.class

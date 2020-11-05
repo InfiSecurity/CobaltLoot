@@ -1,0 +1,8 @@
+name: CobaltLoot
+author: InfiSecurity
+main: us.infisecurity.CobaltLoot.CobaltLoot
+version: ${project.version}
+
+commands:
+  lootbox:
+    description: This command is used as main command.

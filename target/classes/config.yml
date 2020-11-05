@@ -1,0 +1,51 @@
+MESSAGES:
+  LOOTBOX-USAGE: "&cCorrect usage /lootbox give <player> <amount>"
+  LOOTBOX-RECEIVED: "&eYou have received &6%amount% &elootboxes from &6%player%&e."
+  LOOTBOX-OPEN: "&eYou have open a lootbox."
+  LOOTBOX-INVENTORY: "&7Your inventory is full, the items were thrown to the ground."
+  LOOTBOX-REWARDS: "&eYou have received &6%reward% &efrom a lootbox."
+  LOOTBOX-PLACE: "&cYou are not allowed to place enderchests."
+  LOOTBOX-OPEN-BEFORE: "&cYou must open the others before opening this one."
+  INVENTORY:
+    TITLE: "&8Lootbox"
+    COMMON-PRIZE:
+      TITLE: "&6???"
+      LORE: "&eLeft click to open this box."
+    SPECIAL-PRIZE:
+      TITLE: "&c???"
+      LORE: "&eLeft click to open this box."
+
+OPTIONS:
+  LOOTBOX-ITEM:
+    MATERIAL: ENDER_CHEST
+    DISPLAY-NAME: "&6Lootbox"
+    ITEM-META: 0
+    LORES:
+      - "&7Right click to open this lootbox."
+
+REWARDS:
+  FINAL-ITEMS:
+    GOD-RANK:
+      MATERIAL: FEATHER
+      DISPLAY-NAME: "&bFinal Item"
+      ITEM-META: 0
+      AMOUNT: 1
+      CHANCE: 1
+      COMMANDS:
+        - "voucher give {PLAYER} GodRank 1"
+        - "bc &6&lHCFactions &8» &6%player% &ehas just won &bGod Rank &efrom a &6November Lootbox&e!"
+      LORES:
+        - "&eFinal Prize"
+      ENCHANTS:
+        - "DURABILITY:10"
+  REGULAR-ITEMS:
+    48-Grass:
+      MATERIAL: GRASS
+      DISPLAY-NAME: "48x Grass Blocks"
+      ITEM-META: 0
+      AMOUNT: 48
+      CHANCE: 99
+      COMMANDS:
+        - "give %player% GRASS 48"
+      LORES: {}
+      ENCHANTS: {}

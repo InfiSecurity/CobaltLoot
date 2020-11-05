@@ -1,0 +1,8 @@
+name: CobaltLoot
+author: InfiSecurity
+main: us.infisecurity.CobaltLoot.CobaltLoot
+version: 1.0-ALPHA
+
+commands:
+  lootbox:
+    description: This command is used as main command.
